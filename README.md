@@ -1,4 +1,4 @@
-# AI-Bias-Assessment-NIST-RMF# 
+# AI-Bias-Assessment-NIST-RMF
 
 AI Bias Risk Assessment: Facial Recognition Using NIST AI RMF
 
