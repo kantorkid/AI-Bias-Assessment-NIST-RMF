@@ -2,6 +2,14 @@
 
 This project uses the **UTKFace** dataset.
 
+## Setup
+
+Raw images are not included in this repository.
+
+1. Download UTKFace from https://susanqq.github.io/UTKFace/
+2. Place all `.jpg` images in this `/data` folder
+3. Update `DATA_DIR` in the notebook before running
+
 ## Details
 
 | Attribute | Value |
@@ -37,14 +45,6 @@ AGE_GENDER_RACE_DATE.jpg
 |--------|-------|---|
 | Female | 12,391 | 52.3% |
 | Male | 11,314 | 47.7% |
-
-## Setup
-
-Raw images are not included in this repository.
-
-1. Download UTKFace from https://susanqq.github.io/UTKFace/
-2. Place all `.jpg` images in this `/data` folder
-3. Update `DATA_DIR` in the notebook before running
 
 ## Governance Note
 
