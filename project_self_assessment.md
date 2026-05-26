@@ -147,7 +147,7 @@ This project is a risk assessment, not a governance policy. The comparison is th
 | Section 10 — Vendor AI | ⚠️ Partial | No vendor assessment conducted |
 | Section 11 — Security | ✅ Strong | Adversarial testing methodology fully demonstrated |
 | Section 12 — Roles | ⚠️ Partial | Research roles documented, organizational roles not defined |
-| Section 13 — Training | ❌ Not Met | No training materials produced |
+| Section 13 — Training | ✅ Strong | Training materials produced |
 | Section 14 — Incident Reporting | ❌ Not Met | Not addressed |
 
 ---
