@@ -184,13 +184,32 @@ Full framework mapping across GOVERN, MAP, MEASURE, and MANAGE functions as docu
 ```
 ai-bias-assessment-nist-rmf/
 ├── README.md
+├── requirements.txt
 ├── notebooks/
-│   └── bias_assessment.ipynb
-├── reports/
-│   └── executive_summary.pdf
+│   └── BiasAssessment.ipynb
 ├── data/
-│   └── README.md (dataset description — raw data not included)
-└── requirements.txt
+│   └── README.md
+├── reports/
+│   └── executive_summary.md
+└── results/
+    ├── baseline/
+    │   ├── accuracy_metrics.png
+    │   └── confusion_matrix.png
+    ├── adversarial/
+    │   ├── fgsm_perturbation_samples.png
+    │   ├── adversarial_training_comparison.png
+    │   ├── adversarial_visualization.png
+    │   └── adversarial_prediction_shift.png
+    ├── explainability/
+    │   └── lime_heatmaps.png
+    ├── fairness/
+    │   ├── tpr_fpr_by_race_before.png
+    │   └── tpr_fpr_by_race_after.png
+    ├── privacy/
+    │   ├── dp_epsilon_vs_accuracy.png
+    │   └── federated_learning_results.png
+    └── generative/
+        └── stable_diffusion_outputs.png
 ```
 
 ---
