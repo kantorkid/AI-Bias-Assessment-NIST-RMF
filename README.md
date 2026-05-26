@@ -181,34 +181,29 @@ Full framework mapping across GOVERN, MAP, MEASURE, and MANAGE functions as docu
 ## Repository Structure
 
 ```
-ai-bias-assessment-nist-rmf/
+ai-grc-lab/
 ├── README.md
+├── executive_summary.md
+├── project_self_assessment.md
 ├── requirements.txt
 ├── notebooks/
 │   └── BiasAssessment.ipynb
 ├── data/
 │   └── README.md
-├── reports/
-│   └── executive_summary.md
+├── templates/
+│   ├── ai_risk_assessment_template.md
+│   └── ai_governance_policy_template.md
+├── tools/
+│   ├── ai-sop-agent.html
+│   ├── vendor_ai_governance_questionnaire.md
+│   └── ai_governance_training_materials.md
 └── results/
     ├── baseline/
-    │   ├── accuracy_metrics.png
-    │   └── confusion_matrix.png
     ├── adversarial/
-    │   ├── fgsm_perturbation_samples.png
-    │   ├── adversarial_training_comparison.png
-    │   ├── adversarial_visualization.png
-    │   └── adversarial_prediction_shift.png
     ├── explainability/
-    │   └── lime_heatmaps.png
     ├── fairness/
-    │   ├── tpr_fpr_by_race_before.png
-    │   └── tpr_fpr_by_race_after.png
     ├── privacy/
-    │   ├── dp_epsilon_vs_accuracy.png
-    │   └── federated_learning_results.png
     └── generative/
-        └── stable_diffusion_outputs.png
 ```
 
 ---
