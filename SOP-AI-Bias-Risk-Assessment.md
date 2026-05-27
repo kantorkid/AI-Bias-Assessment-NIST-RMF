@@ -380,6 +380,3 @@ This SOP establishes procedures for conducting bias audits of the facial recogni
      - Before/after comparison tables
      - Validation test results
 
-4. **Residual Risk Assessment**
-   
-   Document:
